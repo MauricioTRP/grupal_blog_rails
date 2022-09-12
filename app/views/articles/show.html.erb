@@ -1,0 +1,16 @@
+<h1><%= @article.title %></h1>
+<div class = "col">
+  <div class = "row">
+    <div class="col-9">
+      <div class="row">
+        <p><%= @article.body %></p>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="row">
+        <%= link_to "Volver a Artículos", articles_path %>
+        <p>Otras cosas relacionadas</p>
+      </div>
+    </div>
+  </div>
+</div>
